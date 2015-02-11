@@ -20,3 +20,6 @@ That's all! Test out everything by doing a few builds and watch Slack for messag
 #### Notes:
 * The target framework for the plugin DLL is set to .NET Framework 3.5. When it was .NET 4/4.5, CCNet errored to the Event Viewer with "This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded." This may be different for different versions of CCNet (I'm on 1.6)
 * The CCNet assemblies included and referenced are from v1.6. If you have another version of CCNet, you can try putting its assemblies into the lib folder and updating the project references. The 3 DLLs you'll need to copy from the CruiseControl.NET\server folder are: NetReflector.dll, ThoughtWorks.CruiseControl.Core.dll and ThoughtWorks.CruiseControl.Remote.dll.
+
+#### License:
+See license.txt for licensing information.
