@@ -7,6 +7,7 @@
         public static string HttpPost(string URI, string Parameters)
         {
             System.Net.WebRequest req = System.Net.WebRequest.Create(URI);
+            req.Proxy.Credentials = System.Net.CredentialCache.DefaultCredentials;
             //Add these, as we're doing a POST
             req.ContentType = "application/x-www-form-urlencoded";
             req.Method = "POST";
