@@ -38,18 +38,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
     <Reference Include="ThoughtWorks.CruiseControl.Core, Version=1.6.7981.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Core.dll</HintPath>
     </Reference>
     <Reference Include="ThoughtWorks.CruiseControl.Remote, Version=1.6.7981.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SlackPublisher\bin\Debug\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
