@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NetReflector">
-      <HintPath>lib\CCNet.1.6\NetReflector.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.6\NetReflector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,10 +42,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="ThoughtWorks.CruiseControl.Core">
-      <HintPath>lib\CCNet.1.6\ThoughtWorks.CruiseControl.Core.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Core.dll</HintPath>
     </Reference>
     <Reference Include="ThoughtWorks.CruiseControl.Remote">
-      <HintPath>lib\CCNet.1.6\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -49,7 +49,7 @@
     </Reference>
     <Reference Include="ThoughtWorks.CruiseControl.Remote, Version=1.6.7981.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SlackPublisher\bin\Debug\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
